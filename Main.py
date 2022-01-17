@@ -94,5 +94,5 @@ Button(root, text="=", fg="white", bg="black", command=calculator, height=4,
 Button(root, text="Clear", fg="white", bg="black", command=clear, height=4,
        width=8).grid(row=5, column=0)
 
-# .mainloop() is used when the code is ready to run
+# Loop for everything to run on
 root.mainloop()
