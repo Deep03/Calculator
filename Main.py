@@ -1,21 +1,22 @@
 # importing the tkinter module
 from tkinter import *
 
-# initializing the tkinter, creating an object
+# Creating an object from TK Class
 root = Tk()
-# setting the width and height of the gui window
+# Sets window size
 root.geometry("430x500")
-# declaring an empty string variable for expression to be added on
+# an empty string to evaluate numeric expression
 expression = ""
 
 
-# Function to evaluating expression
+# Function to evaluate expression
 def set_expression(num):
     global expression
     expression = expression + str(num)
     value.set(expression)
 
-# defining a function to calculate the expression entered by the user
+
+# Function to get the expression inputted from the user
 def calculator():
     try:
         global expression
@@ -26,73 +27,72 @@ def calculator():
         expression = ""
 
 
-# function to clear everything in expression
+# Function to clear the display area of the calculator
 def clear():
     global expression
     expression = ""
     value.set(expression)
 
 
-# Variable to store data entered by user
+# Var to store the expression
 value = StringVar(value="Enter expression")
 
-# Entry widget to accept data from user and store it in value
-Entry(root, textvariable=value, font='Arial').grid(row=0,
-                                                   column=0, columnspan=4)
+# EW to create an input widget for the user
+Entry(root, textvariable=value, font='Arial').grid(row=0, column=0, columnspan=4)
 
+# Button widget to create buttons that calls set_expression function
 B_add = Button(root, text="+", fg="white", bg="black", command=lambda:
 set_expression("+"), height=4, width=8).grid(row=1, column=0)
 
-B_subtract = Button(root, text="-", fg="white", bg="black", command=lambda:
+B_sub = Button(root, text="-", fg="white", bg="black", command=lambda:
 set_expression("-"), height=4, width=8).grid(row=2, column=0)
 
 B_mul = Button(root, text="X", fg="white", bg="black", command=lambda:
 set_expression("*"), height=4, width=8).grid(row=3, column=0)
 
-B_divide = Button(root, text="/", fg="white", bg="black", command=lambda:
+B_div = Button(root, text="/", fg="white", bg="black", command=lambda:
 set_expression("/"), height=4, width=8).grid(row=4, column=0)
 
-B_one = Button(root, text="1", fg="white", bg="black", command=lambda:
+B_1 = Button(root, text="1", fg="white", bg="black", command=lambda:
 set_expression("1"), height=4, width=8).grid(row=1, column=1)
 
-B_two = Button(root, text="2", fg="white", bg="black", command=lambda:
+B_2 = Button(root, text="2", fg="white", bg="black", command=lambda:
 set_expression("2"), height=4, width=8).grid(row=1, column=2)
 
-B_three = Button(root, text="3", fg="white", bg="black", command=lambda:
+B_3 = Button(root, text="3", fg="white", bg="black", command=lambda:
 set_expression("3"), height=4, width=8).grid(row=1, column=3)
 
-B_four = Button(root, text="4", fg="white", bg="black", command=lambda:
+B_4 = Button(root, text="4", fg="white", bg="black", command=lambda:
 set_expression("4"), height=4, width=8).grid(row=2, column=1)
 
-B_five = Button(root, text="5", fg="white", bg="black", command=lambda:
+B_5 = Button(root, text="5", fg="white", bg="black", command=lambda:
 set_expression("5"), height=4, width=8).grid(row=2, column=2)
 
-B_six = Button(root, text="6", fg="white", bg="black", command=lambda:
+B_6 = Button(root, text="6", fg="white", bg="black", command=lambda:
 set_expression("6"), height=4, width=8).grid(row=2, column=3)
 
-B_seven = Button(root, text="7", fg="white", bg="black", command=lambda:
+B_7 = Button(root, text="7", fg="white", bg="black", command=lambda:
 set_expression("7"), height=4, width=8).grid(row=3, column=1)
 
-B_eight = Button(root, text="8", fg="white", bg="black", command=lambda:
+B_8 = Button(root, text="8", fg="white", bg="black", command=lambda:
 set_expression("8"), height=4, width=8).grid(row=3, column=2)
 
-B_nine = Button(root, text="9", fg="white", bg="black", command=lambda:
+B_9 = Button(root, text="9", fg="white", bg="black", command=lambda:
 set_expression("9"), height=4, width=8).grid(row=3, column=3)
 
-B_zero = Button(root, text="0", fg="white", bg="black", command=lambda:
+B_0 = Button(root, text="0", fg="white", bg="black", command=lambda:
 set_expression("0"), height=4, width=8).grid(row=4, column=1)
 
-B_decimal = Button(root, text=".", fg="white", bg="black", command=lambda:
+B_dot = Button(root, text=".", fg="white", bg="black", command=lambda:
 set_expression("."), height=4, width=8).grid(row=4, column=2)
 
 # show the calculated value in the entry widget
 Button(root, text="=", fg="white", bg="black", command=calculator, height=4,
        width=8).grid(row=4, column=3)
 
-# "Clear" button to call the clear function which will clear the
-# entry widget so that the user can start calculating again
+# Button that clears the entry widget
 Button(root, text="Clear", fg="white", bg="black", command=clear, height=4,
-       width=20).grid(row=5, column=1)
+       width=8).grid(row=5, column=0)
 
 # .mainloop() is used when the code is ready to run
 root.mainloop()
