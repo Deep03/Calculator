@@ -2,19 +2,19 @@
 
 This is a simple calculator application implemented in Python using the Tkinter library. It provides a graphical user interface (GUI) that allows users to perform basic arithmetic operations.
 
-##Features
+## Features
 
 Addition, subtraction, multiplication, and division operations are supported.
 Numeric input through buttons or the keyboard.
 Clear button to reset the input and start a new calculation.
 Error handling for incorrect expressions.
 
-##Prerequisites
+## Prerequisites
 
 Python 3.x installed on your system.
 Tkinter library included in your Python installation.
 
-##How to Run
+## How to Run
 Clone the repository or download the source code.
 Open a terminal or command prompt and navigate to the project directory.
 Run the following command to start the calculator:
@@ -23,7 +23,7 @@ Copy code
 python calculator.py
 The calculator window will open, and you can start performing calculations.
 
-##Usage
+## Usage
 Enter the desired numbers and arithmetic operators using the buttons or keyboard.
 The entered expression will be displayed in the input field.
 Press the "=" button or press Enter to evaluate the expression and display the result.
@@ -32,10 +32,10 @@ Screenshots
 (Optional) Include screenshots of the calculator application in action. For example, you can provide screenshots showing the interface and different calculations being performed.
 
 
-##License
+## License
 This project is licensed under the MIT License.
 
-##Acknowledgments
+## Acknowledgments
 The Tkinter library provides the foundation for building the GUI.
 Special thanks to the developers and contributors of Python and Tkinter for their excellent work.
 Contact
