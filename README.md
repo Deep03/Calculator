@@ -13,7 +13,7 @@ This is a simple calculator application implemented in Python using the Tkinter 
 ## Prerequisites
 
 Python 3.x installed on your system.
-Tkinter library included in your Python installation.
+Tkinter library included in your Python installation. If not, install Homebrew from [https://brew.sh/], and try `brew install python-tk`
 
 ## How to Run
 
@@ -28,7 +28,7 @@ Tkinter library included in your Python installation.
 - Press the "=" button or press Enter to evaluate the expression and display the result.
 - To clear the input field, click the "Clear" button.
 
-#$ Screenshots
+## Screenshots
 
 
 
@@ -38,11 +38,3 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 The Tkinter library provides the foundation for building the GUI.
 Special thanks to the developers and contributors of Python and Tkinter for their excellent work.
-Contact
-For any further questions or inquiries, please contact Your Name.
-
-Please make sure to replace [Your Name] and [your.email@example.com] in the contact section with your actual name and email address.
-
-Remember to include the LICENSE file in the project directory and customize it if necessary, according to your licensing preferences.
-
-Feel free to enhance the README.md further based on your project requirements and any additional information you would like to provide to users.
