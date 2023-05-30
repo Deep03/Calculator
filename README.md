@@ -20,8 +20,7 @@ Tkinter library included in your Python installation.
 - Clone the repository or download the source code.
 - Open a terminal or command prompt and navigate to the project directory.
 - Run the following command to start the calculator:
-```shell
-python calculator.py ```
+`shell python calculator.py`
 
 Copy code
 python calculator.py
