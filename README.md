@@ -16,10 +16,13 @@ Python 3.x installed on your system.
 Tkinter library included in your Python installation.
 
 ## How to Run
-Clone the repository or download the source code.
-Open a terminal or command prompt and navigate to the project directory.
-Run the following command to start the calculator:
-shell
+
+- Clone the repository or download the source code.
+- Open a terminal or command prompt and navigate to the project directory.
+- Run the following command to start the calculator:
+```shell
+python calculator.py ```
+
 Copy code
 python calculator.py
 The calculator window will open, and you can start performing calculations.
