@@ -27,6 +27,7 @@ Use requirements.txt to find the dependancies. If python 3.x installed on your s
 - To clear the input field, click the "Clear" button.
 
 ## Screenshots
+![Calculator Application](calculator.png)
 
 
 
