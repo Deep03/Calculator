@@ -1,4 +1,4 @@
-##Calculator Application
+# Calculator Application
 
 This is a simple calculator application implemented in Python using the Tkinter library. It provides a graphical user interface (GUI) that allows users to perform basic arithmetic operations.
 
