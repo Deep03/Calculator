@@ -20,7 +20,7 @@ Tkinter library included in your Python installation. If not, install Homebrew f
 - Clone the repository or download the source code.
 - Open a terminal or command prompt and navigate to the project directory.
 - Run the following command to start the calculator:
-`shell python calculator.py`
+`python calculator.py`
 
 ## Usage
 - Enter the desired numbers and arithmetic operators using the buttons or keyboard.
