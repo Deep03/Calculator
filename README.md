@@ -11,9 +11,7 @@ This is a simple calculator application implemented in Python using the Tkinter 
 
 
 ## Prerequisites
-
-Python 3.x installed on your system.
-Tkinter library included in your Python installation. If not, install Homebrew from [https://brew.sh/], and try `brew install python-tk`
+Use requirements.txt to find the dependancies. If python 3.x installed on your system, then Tkinter library is already included in your Python installation. If not, install Homebrew from [https://brew.sh/], and try `brew install python-tk`
 
 ## How to Run
 
