@@ -4,10 +4,11 @@ This is a simple calculator application implemented in Python using the Tkinter 
 
 ## Features
 
-Addition, subtraction, multiplication, and division operations are supported.
-Numeric input through buttons or the keyboard.
-Clear button to reset the input and start a new calculation.
-Error handling for incorrect expressions.
+- Addition, subtraction, multiplication, and division operations are supported.
+- Numeric input through buttons or the keyboard.
+- Clear button to reset the input and start a new calculation.
+- Error handling for incorrect expressions.
+
 
 ## Prerequisites
 
