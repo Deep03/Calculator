@@ -22,17 +22,14 @@ Tkinter library included in your Python installation.
 - Run the following command to start the calculator:
 `shell python calculator.py`
 
-Copy code
-python calculator.py
-The calculator window will open, and you can start performing calculations.
-
 ## Usage
-Enter the desired numbers and arithmetic operators using the buttons or keyboard.
-The entered expression will be displayed in the input field.
-Press the "=" button or press Enter to evaluate the expression and display the result.
-To clear the input field, click the "Clear" button.
-Screenshots
-(Optional) Include screenshots of the calculator application in action. For example, you can provide screenshots showing the interface and different calculations being performed.
+- Enter the desired numbers and arithmetic operators using the buttons or keyboard.
+- The entered expression will be displayed in the input field.
+- Press the "=" button or press Enter to evaluate the expression and display the result.
+- To clear the input field, click the "Clear" button.
+
+#$ Screenshots
+
 
 
 ## License
